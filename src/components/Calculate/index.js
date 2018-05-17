@@ -49,8 +49,6 @@ const enhance = compose(
   }),
 )
 
-// this.setState({number: e.target.value, message: ''})
-
 export default enhance(({ number, setNumber, onSubmitted, message }) => (
   <Form onSubmit={onSubmitted}>
     <FieldGroup>
